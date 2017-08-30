@@ -1,29 +1,29 @@
 <p align="center">
-<img src="http://i.imgur.com/mCtrbIN.png">
+<img src="http://i.imgur.com/RRx4CO9.png">
 </p>
 ===================
 
 
-# Please Note that AimTux-Fuzion Requires Additional Packages. See Below!
+# Please Note that KraTux Requires Additional Packages. See Below!
 [![Join the chat at https://gitter.im/Aimtux-Fuzion/Lobby](https://img.shields.io/gitter/room/TechnologyAdvice/Stardust.svg?style=flat-square)](https://gitter.im/Aimtux-Fuzion/Lobby#)
 
 Want to chat or play with other Fuzion users? Join us on Gitter!
 
-## THIS IS A WORKIGN PROGRESS FORK ! 3RD PERSON IS BROKEN AND SO IS ANIT_AIMS
+## THIS IS A WORKING PROGRESS FORK ! 3RD PERSON IS BROKEN AND SO IS ANTI_AIMS
 
 
-## What is Fuzion?
+## What is KraTux?
 
-A fully featured internal hack for *CounterStrike : Global Offensive* written in C++.
+KraTux is a Fuzion fork with the Nyctum aimbot, resolver and more features added. A fully featured internal hack for *CounterStrike : Global Offensive* written in C++.
 
 
 ## Compiling
 
-**Note:** _Fuzion Requires an additional package for Lua and xdo._
+**Note:** _KraTux Requires an additional package for Lua and xdo._
 
 **Note:** _Do NOT download or compile as the root user._
 
-#### Download the dependencies required to build Fuzion:
+#### Download the dependencies required to build KraTux:
 
 
 If you're having problems compiling make sure you've got the latest version of `g++`.
@@ -51,7 +51,7 @@ sudo emerge cmake dev-vcs/git gdb libsdl2 mesa lua xdotool patchelf
 ```
 ===================
 
-#### Download Fuzion:
+#### Download KraTux:
 
 ```bash
 git clone --recursive https://github.com/HelixCodes/KraTux
@@ -82,7 +82,7 @@ First of all, make sure CSGO is open, it doesn't matter whether you're in game o
 Navigate to the directory where AimTux-Fuzion was built if you haven't ready.
 
 ```bash
-cd Fuzion
+cd KraTux
 ```
 
 Now, you can inject the hack with the `load` script
@@ -115,7 +115,7 @@ Once CSGO is loaded, the cheat should be loaded as well and you can check the CS
 
 ## Using the hack
 
-Now that Fuzion has been injected into the game, press <kbd>Insert</kbd> on your keyboard to open the hack menu (<kbd>ALT</kbd>+<kbd>I</kbd> if you're using a laptop).
+Now that KraTux has been injected into the game, press <kbd>Insert</kbd> on your keyboard to open the hack menu (<kbd>ALT</kbd>+<kbd>I</kbd> if you're using a laptop).
 
 If you want to change skins, create and load configs or open the player list, you can find those buttons at the top of the screen.
 
@@ -146,7 +146,7 @@ On your Command line, You can also add the -a flag on ls     `ex: ls -la ~/`
 ## Grenade Configs
 
 ```
-~/.config/FuzionGH
+~/.config/KraTuxGH
 ```
 
 Each `config.json` is stored in the folder named after them map name.
