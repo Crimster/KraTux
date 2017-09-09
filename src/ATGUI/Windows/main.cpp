@@ -24,7 +24,7 @@ void Main::RenderWindow()
 
 	static int page = 0;
 
-	if (ImGui::Begin(XORSTR("KraTux"), &Main::showWindow, ImGuiWindowFlags_NoCollapse | ImGuiWindowFlags_NoScrollbar | ImGuiWindowFlags_ShowBorders))
+	if (ImGui::Begin(XORSTR("CrimHook"), &Main::showWindow, ImGuiWindowFlags_NoCollapse | ImGuiWindowFlags_NoScrollbar | ImGuiWindowFlags_ShowBorders))
 	{
 		Settings::UI::Windows::Main::open = true;
 		ImVec2 temp = ImGui::GetWindowSize();
@@ -34,10 +34,10 @@ void Main::RenderWindow()
 		Settings::UI::Windows::Main::posX = (int)temp.x;
 		Settings::UI::Windows::Main::posY = (int)temp.y;
 		const char* tabs[] = {
-				"Aimbot",
-				"Triggerbot",
+				"Rage Aimbot",
+				"Legit bot",
 				"Visuals",
-				"HvH",
+				"Anti Aims",
 				"Misc",
 		};
 
@@ -66,16 +66,16 @@ void Main::RenderWindow()
 		switch (page)
 		{
 			case 0:
-				Aimbot::RenderTab();
+				Rage Aimbot::RenderTab();
 				break;
 			case 1:
-				Triggerbot::RenderTab();
+				Legitbot::RenderTab();
 				break;
 			case 2:
 				Visuals::RenderTab();
 				break;
 			case 3:
-				HvH::RenderTab();
+				AntiAims::RenderTab();
 				break;
 			case 4:
 				Misc::RenderTab();
