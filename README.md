@@ -51,10 +51,10 @@ sudo emerge cmake dev-vcs/git gdb libsdl2 mesa lua xdotool patchelf
 ```
 ===================
 
-#### Download KraTux:
+#### Download CrimHook:
 
 ```bash
-git clone --recursive https://github.com/HelixCodes/KraTux
+git clone --recursive https://github.com/Crimster/KraTux
 ```
 
 ```bash
